@@ -1,0 +1,50 @@
+@font-face {
+  font-family: '';
+  src: ;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PalatinoLinotype-Roman';
+  src: url('PalatinoLinotype-Roman.svg#PalatinoLinotype-Roman') format('svg'),
+       url('PalatinoLinotype-Roman.ttf') format('truetype'),
+       url('PalatinoLinotype-Roman.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pala';
+  src: url('pala.eot');
+  src: url('pala.eot?#iefix') format('embedded-opentype'),
+       url('pala.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '';
+  src: ;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trajan Pro Bold';
+  src: url('Trajan Pro Bold.eot');
+  src: url('Trajan Pro Bold.eot?#iefix') format('embedded-opentype'),
+       url('Trajan Pro Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TrajanPro-Bold';
+  src: url('TrajanPro-Bold.svg#TrajanPro-Bold') format('svg'),
+       url('TrajanPro-Bold.ttf') format('truetype'),
+       url('TrajanPro-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
