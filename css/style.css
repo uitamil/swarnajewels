@@ -851,7 +851,7 @@ padding: 30px 0 35px 0px;
     font-family: 'Trajan Pro Bold';
 font-style: normal;
 font-weight: 400;
-font-size: 19px;
+font-size: 17px;
 line-height: 32px;
 text-align: center;
 color: #000000;
@@ -871,7 +871,7 @@ color: #515151;
     display: inline-flex;
 }
 .in-im img {
-    width: 65px;
+    width: 80px;
     height: 65px;
     object-fit: contain;
 }
@@ -1403,6 +1403,10 @@ color: #FFD25F;
     display: block;
 	z-index:999;
 	    filter: invert(1);
+}
+/******************************/
+section#collectionspro .col-md-2 {
+    width: 14%;
 }
 
 @media only screen and (max-width: 767px) and (min-width: 320px){
