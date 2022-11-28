@@ -548,7 +548,14 @@
                                               <div class="caption">
                                                 <h3>SDJ B11 BA</h3>
                                                  </div>
-                                                 <div class="cap-m1"><span>$600</span><span><a href="#"><i class="fa-solid fa-bag-shopping"></i>ADD TO CART</a></span></div>
+                                                 <div class="cap-m1"><span>$600</span>
+													<span class="noincre"><div class="number">
+	<span class="minus">-</span>
+	<input type="text" value="1"/>
+	<span class="plus">+</span>
+</div></span>
+													<!--<span><a href="#"><i class="fa-solid fa-bag-shopping"></i>ADD TO CART</a></span>-->
+												 </div>
                                             </div>        
                                         </div>
                                         <div class="col-md-3">
@@ -967,6 +974,24 @@ $('.Fruitslider').slick({
     $('#myCarousel').carousel({
 		interval:   4000
 	});
+</script>
+<script>
+	$(document).ready(function() {
+			$('.minus').click(function () {
+				var $input = $(this).parent().find('input');
+				var count = parseInt($input.val()) - 1;
+				count = count < 1 ? 1 : count;
+				$input.val(count);
+				$input.change();
+				return false;
+			});
+			$('.plus').click(function () {
+				var $input = $(this).parent().find('input');
+				$input.val(parseInt($input.val()) + 1);
+				$input.change();
+				return false;
+			});
+		});
 </script>
 	</body>
 </html>
