@@ -827,7 +827,7 @@ margin-top: 40px;
     background-image: url(../images/model.png);
     right: 0;
     top: 0;
-    width: 50%;
+    width: 58%;
     height: 499px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -845,8 +845,7 @@ margin-top: 40px;
     text-align: center;
     background: radial-gradient(50% 50% at 50% 50%, rgba(255, 245, 221, 0.1) 0%, rgba(255, 184, 0, 0.1) 100%);
 border-radius: 32px;
-height: 260px;
-padding: 30px 0;
+padding: 30px 0 35px 0px; 
 }
 .qu-in h4{
     font-family: 'Trajan Pro Bold';
@@ -935,22 +934,22 @@ color: #000000;
 	left:-32px;
     top: 60%;
 }
-.carousel-indicators {
-	bottom:-30px;
-}
-.carousel-indicators li {
-	border-radius:0;
-	width:10px;
-	height:10px;
-	background:#ccc;
-	border:1px solid #ccc;
-}
-.carousel-indicators .active {
-	width:12px;
-	height:12px;
-	background:#3276b1;
-	border-color:#3276b1;
-}
+/* .carousel-indicators { */
+	/* bottom:-30px; */
+/* } */
+/* .carousel-indicators li { */
+	/* border-radius:0; */
+	/* width:10px; */
+	/* height:10px; */
+	/* background:#ccc; */
+	/* border:1px solid #ccc; */
+/* } */
+/* .carousel-indicators .active { */
+	/* width:12px; */
+	/* height:12px; */
+	/* background:#3276b1; */
+	/* border-color:#3276b1; */
+/* } */
 .top-sec{
     margin: 40px 0;
 }
@@ -1088,6 +1087,96 @@ color: #000000;
     left: 6%;
 }
 /* special collection section*/
+
+/* Testimonial section*/
+.testi-sec h2{
+    font-family: 'Trajan Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 42px;
+text-align: center;
+text-transform: uppercase;
+color: #FAB400;
+}
+.carousel-indicators a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 29px;
+    /* identical to box height, or 132% */
+    
+    
+    color: #838383;
+}
+.carousel-indicators li {
+   text-indent: 0;
+}
+.carousel-indicators  .active a{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 29px;
+/* identical to box height, or 132% */
+color: #838383;
+   
+    text-decoration: none;
+}
+.carousel-indicators a:hover{
+    text-decoration: none;
+}
+.car-rig-1{
+    left: auto;
+    right: 45% !important;
+    top: 103% !important;
+}
+.carousel-indicators {
+    bottom: -45px;
+    left: 78%;
+    width: 5%;
+}
+.test-in{
+    display: flex;
+}
+.test-div1{
+    margin-left: 10px;
+}
+.test-in p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 29px;
+/* or 171% */
+
+
+color: #000000;
+}
+.test-in h4{
+    font-family: 'Trajan Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 28px;
+color: #E9A619;
+}
+.test-in h5{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 33px;
+color: #393939;
+}
+.testi-sec .col-md-12{
+    margin-bottom: 30px;
+}
+.testi-sec{
+    padding: 20px 0;
+}
+/* Testimonial section*/
 /************thiru code ends**************/
 /****footer****/
 .follow_us ul li {
@@ -1117,28 +1206,200 @@ footer h3 {
     line-height: 1.5;
     color: #000000;
 }
-.contact_info ul li {
+.contact_info ul li,.contact_info ul li a {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 40px;
     color: #000000;
 }
 .foo_logo p {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 17px;
     line-height: 24px;
     text-align: center;
     color: #000000;
+	padding-top: 15px;
+}
+.contact_info img {
+    width: 20px;
+}
+.info_info li {
+    line-height: 40px;
+}
+.contact_info {
+    padding-left: 20px;
+}
+.follow_us {
+    padding-top: 30px;
+}
+.foo_logo {
+    text-align: center;
+}
+.copy {
+    text-align: center;
+    padding-top: 15px;
+    border-top: 1px solid #C8C8C8;
+    margin-top: 40px;
+}
+.copy p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 45px;
+    color: #2D2D2D;
+}
+/*************newsletter*******************/
+.newsmail {
+    display: inline-flex;
+    margin: 10px 0px;
+    width: 450px;
+    padding: 55px 0px;
+}
+input#mc-embedded-subscribe {
+    background: #FAB400;
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    border: 1px solid #FAB400;
+    background-position: 105px 6px;
+    background-size: 23px;
+    border-radius: 16px;
+    margin-left: -10px;
+    width: 200px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #614703;
+    position: relative;
+    padding: 0px 18px;
+}
+.newsmail input {
+   height: 50px;
+    border-radius: 0;
+    padding: 15px;
+}
+input.email.form-control {
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+	    border-right: 0px;
+		font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 36px;
+color: #CACACA;
+}
+.div_prt {
+    text-align: center;
+}
+.div_prt h3 {
+    font-family: 'Trajan Pro Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4F4F4F;
+   margin:10px 0px;
+}
+.div_prt h3 span {
+    color: #8C6A13;
+    display: block;
+    font-size: 50px;
+    line-height: 1.5;
+}
+.div_prt p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+section.newleter {
+    background: #FFE193;
+    padding: 20px 0px;
 }
 
+/*******indian jewels*********/
+section.idian_cole {
+    text-align: center;
+    background: url(../images/indianje.png);
+    background-size: 100% 100%;
+}
+.indian_jewl {
+    padding: 50px 0px;
+}
+.indian_jewl img {
+    width: 315px;
+}
+.indian_jewl img {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 15px;
+}
+.indian_jewl p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000000;
+    padding-top: 30px;
+}
+/***design section***/
+section.design_cole{
+	   text-align: center;
+    background: url(../images/design_bg.png);
+    background-size: 100% 100%;
+	    height: 500px;
+}
+.des_jewl {
+    padding: 9% 0px;
+}
+.des_jewl p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+}
 
-
-
-
+.des_jewl h3{
+	font-family: 'Trajan Pro Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 42px;
+/* identical to box height */
+position:relative;
+text-align: center;
+text-transform: uppercase;
+color: #FFD25F;
+}
+.des_jewl h3:after {
+    background: url(../images/sm.svg) no-repeat;
+	content: "";
+        width: 266px;
+    height: 58px;
+    margin: 15px auto 0 auto;
+    clear: left;
+    display: block;
+	z-index:999;
+	    filter: invert(1);
+}
 
 @media only screen and (max-width: 767px) and (min-width: 320px){
 .foo_sli .button {
