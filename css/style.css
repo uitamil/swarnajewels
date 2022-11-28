@@ -1420,6 +1420,48 @@ section#collectionspro .col-md-2 {
 .col-md-6.spl-e img {
     width: 350px;
 }
+.number span {
+	cursor:pointer; 
+	line-height:0px !important;
+	}
+	span.minus, span.plus{
+		background:#FFCC47 !important;
+	}
+	.number {
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center;
+}
+		.minus, .plus{
+			width:20px;
+			height:20px;
+			background:#f2f2f2;
+			border-radius:4px;
+			padding:8px 5px 8px 5px;
+			border:1px solid #ddd;
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+		}
+		.number input{
+		height: 28px;
+    width: 60px;
+    text-align: center;
+    font-size: 17px;
+			border:1px solid #ddd;
+			border-radius:4px;
+      display: inline-block;
+      vertical-align: middle;
+		}
+		span.noincre {
+    background-color: transparent !important;
+}
+		.cap-m1 {
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center;
+}
+
 @media only screen and (max-width: 767px) and (min-width: 320px){
 .foo_sli .button {
     width: 100% !important;
