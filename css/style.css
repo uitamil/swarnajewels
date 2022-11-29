@@ -1541,6 +1541,95 @@ section#collectionspro .col-md-2 {
     vertical-align: middle;
     align-items: center;
 }
+/******thiru code******/
+
+
+/*Trending now mobile section*/
+#myCarousel2 .col-md-6{
+width: 50%;
+}
+
+.carousel-inner .item .row{
+  display: flex;
+  flex-direction: row;
+}
+
+.topmob-sec .carousel-control.right {
+  left: auto;
+  right: 43%;
+  top: 93%;
+}
+.topmob-sec .number{
+  display: flow-root;
+}
+.topmob-sec .carousel-control.left {
+  right: auto;
+  left: 43%;
+  top: 93%;
+}
+
+.topmob-sec .cap-m1{
+  display: flex;
+  flex-direction: column;
+}
+.topmob-sec .cap-m1 span{
+margin: 5px 0;
+}
+.topmob-sec{
+  padding: 30px 0;
+}
+.topmob-sec h2 {
+  font-family: 'Trajan Pro Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FAB400;
+}
+.topmob-sec .carousel-inner .item .active, .topmob-sec .carousel-inner .item{
+  padding: 15px;
+}
+.topmob-sec .thumbnail, .topmob-sec .item .active .thumbnail{
+  height: 360px;
+  background-color: transparent !important;
+}
+/*Trending section*/
+
+
+/*testimonial mobile section*/
+.testimob-sec h2 {
+  font-family: 'Trajan Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FAB400;
+}
+.testimob-sec .col-md-12 {
+  margin-bottom: 30px;
+}
+.testimob-sec .carousel-indicators{
+  display: flex;
+  bottom: 15px;
+}
+.testimob-sec .carousel-indicators li, .testimob-sec .carousel-indicators .active{
+  background-color: inherit;
+  border: none;
+}
+.testimob-sec .carousel-control.right {
+  left: 66% !important;
+  right: 0;
+  top: 87% !important;
+}
+/*testimonial mobile section*/
+
+section.topmob-sec ,section.testimob-sec{
+    display: none;
+}
 
 @media only screen and (max-width: 767px) and (min-width: 320px){
 .foo_sli .button {
