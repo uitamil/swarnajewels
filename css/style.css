@@ -379,12 +379,21 @@ font-size: 85px;
 line-height: 1.2;
 text-align: center;
 text-transform: uppercase;
-    border-bottom: 2px solid #8D8D8D;
+    border-bottom: 0px solid #8D8D8D;
     padding-bottom: 30px;
 	margin-bottom:30px;
 background: radial-gradient(57.14% 57.14% at 50% 42.86%, #B08539 0%, #E0B650 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+}
+.title_ban h1:after {
+  content: "";
+    width: 350px;
+    height: 1.1px;
+    margin: 5px auto 0 auto;
+    clear: left;
+    display: block;
+    background: #8D8D8D;
 }
 p.para_tit:before {
   content: "";
