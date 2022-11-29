@@ -623,7 +623,7 @@ a.all-category-list-link{
     overflow: hidden;
 }
 .flex-slide.active{
-    flex: 0 0 40%;
+    flex: 0 0 30%;
 }
 /* .img_overlay { */
     /* content: ""; */
