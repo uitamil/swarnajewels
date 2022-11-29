@@ -959,9 +959,20 @@ color: #515151;
     border: 1px solid #C2C2C2;
     border-radius: 46px;
     padding: 30px 20px;
+	background:transparent;
 }
 .carousel-control.left, .carousel-control.right {
 	background-image:none !important;
+}
+.carousel-indicators .active {
+    background: none;
+    border: none;
+}
+
+.carousel-indicators li {
+    text-indent: 0;
+    background: none;
+    border: none;
 }
 .carousel-control {
 	color:#fff;
