@@ -1873,7 +1873,7 @@ footer h3{
   width: 55%;
 }
 .carousel-control.right {
-  right: 42%;
+  right: 42% !important;
   top: 103%;
 }
 .title_ban h1{
