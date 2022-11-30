@@ -1708,6 +1708,9 @@ section.topmob-sec ,section.testimob-sec{
   .carousel-indicators{
     left: 77%;
   }
+    .nav-container .nav-row .nav-row-list .nav-row-list-link {
+    font-size: 14px;
+}
 }
 
 @media only screen and (min-width:992px) and (max-width:1024px){
@@ -1748,10 +1751,15 @@ section.topmob-sec ,section.testimob-sec{
 .cap-m1 span:nth-child(2) a{
   font-size: 10px;
 }
+.nav-container .nav-row .nav-row-list .nav-row-list-link{
+font-size:13px
+}
 }
 
 @media only screen and (min-width:768px) and (max-width:991px){
-
+.container_cls .search{
+left:105px;
+}
   section.main_cls p{
     width: 100%;
   }
