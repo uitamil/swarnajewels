@@ -2106,7 +2106,7 @@ section#collectionspro .col-md-2 {
     float: left;
 }
 .topmob-sec .thumbnail, .topmob-sec .item .active .thumbnail {
-    height: 410px;
+    height: auto;
     margin-bottom: 30px;
     background-color: transparent !important;
 }
