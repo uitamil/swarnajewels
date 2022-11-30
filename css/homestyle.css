@@ -1790,7 +1790,7 @@ section.design_cole{
   height: auto;
 }
 .nav-container .nav-row .nav-row-list .nav-row-list-link{
-  font-size: 12px;
+  font-size: 10px;
 }
 .nav-container .featured-category {
   display: block;
@@ -1880,7 +1880,7 @@ footer h3{
   width: 55%;
 }
 .carousel-control.right {
-  right: 42%;
+  right: 42% !important;
   top: 103%;
 }
 .title_ban h1{
