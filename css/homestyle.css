@@ -1661,6 +1661,244 @@ section.topmob-sec ,section.testimob-sec{
 .mobile_img{
 	display:none;
 }
+@media only screen and (min-width:1202px) and (max-width:1233px){
+
+  .carousel-control.right {
+    right: 5px;
+    top: 60%;
+}
+.carousel-control.left {
+  left: 5px;
+  top: 60%;
+}
+
+}
+
+@media only screen and (min-width:1025px) and (max-width:1201px){
+  .container_cls{
+    margin: 15px 0;
+  }
+  .nav-container .nav-row .nav-row-list .nav-row-list-link{
+    font-size: 15px;
+  }
+  .title_ban h1{
+    font-size:75px;
+  }
+  .img_jewl img {
+    width: 100%;
+  }
+  .jewel_cnt{
+    left: -15px;
+  }
+  .arr_prt{
+    height: 250px;
+  }
+  .qu-in h4{
+    font-size: 15px;
+  }
+  .carousel-control.left{
+    left: -26px;
+  }
+  .carousel-control.right{
+    right: -26px;
+  }
+  .spl-e p::before{
+    width: 88%;
+  }
+  .carousel-indicators{
+    left: 77%;
+  }
+}
+
+@media only screen and (min-width:992px) and (max-width:1024px){
+  .title_ban h1{
+    font-size: 75px;
+  }
+  .img_jewl img {
+    width: 100%;
+}
+.jewel_cnt{
+  left: 0;
+}
+.arr_prt p{
+  font-size: 25px;
+}
+.arr_prt{
+  height: 250px;
+}
+.qu-in h4{
+  font-size: 15px;
+}
+.spl-e p::before{
+  width: 88%;
+}
+.carousel-indicators{
+  left: 77%;
+}
+.carousel-control.left{
+  left: 6px;
+}
+.carousel-control.right {
+  left: auto;
+  right: 6px;
+}
+.cap-m1 span {
+  margin: 0 5px;
+}
+.cap-m1 span:nth-child(2) a{
+  font-size: 10px;
+}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+
+  section.main_cls p{
+    width: 100%;
+  }
+  .arr_prt .row{
+    display: flex;
+    flex-direction: column;
+  }
+  .newarrivals .row:nth-child(1){
+    display: flex;
+  }
+  .newarrivals .row:nth-child(1) .col-md-6{
+    width: 25%;
+  }
+  .img_jewl img {
+    width: 150px;
+    margin-top: 20px;
+}
+.arr_prt p{
+  font-size: 16px;
+}
+.jewel_cnt{
+  top: 0;
+}
+.nt-in{
+  width: 140%;
+}
+section.design_cole{
+  height: auto;
+}
+.nav-container .nav-row .nav-row-list .nav-row-list-link{
+  font-size: 12px;
+}
+.nav-container .featured-category {
+  display: block;
+}
+.nav-container .nav-row {
+  display: flex !important;
+}
+  .nt-row{
+    display: flex;
+    margin-right: 25px;
+  }
+  .nt-in h5{
+    font-size: 12px;
+  }
+  #myCarousel .col-md-3 {
+    width: 25%;
+}
+.cap-m1{
+  display: flex;
+  flex-direction: column;
+}
+.cap-m1 span{
+  margin: 5px 0;
+}
+#myCarousel .thumbnail{
+  height: 350px;
+}
+  .nt-row .row{
+    display: flex;
+  }
+  .nt-row .col-md-3{
+    width: 50%;
+  }
+  .oq-sec .col-md-8{
+    width: 75%;
+  }
+  .col-md-6.spl-e{
+    width: 50%;
+  }
+  .spl-e p::before{
+    width: 100%;
+    left: 0;
+  }
+  .spl-sec{
+    height: auto;
+  }
+  .spl-sec::after{
+    height: 480px;
+    width: 55%;
+  }
+  .carousel-indicators {
+    left: 68%;
+    width: 18%;
+}
+.newsmail {
+  width: 100%;
+  padding: 20px 0px;
+}
+.newleter .col-md-6{
+  text-align: center;
+}
+footer .row{
+  display: flex;
+}
+.follow_us img{
+  margin: 10px 0;
+}
+footer h3{
+  font-size: 12px;
+}
+.foo_logo p{
+  font-size: 14px;
+}
+.follow_us {
+  padding-top: 0;
+}
+.info_info ul li a{
+  font-size: 14px;
+}
+.idian_cole .row{
+  display: flex;
+}
+.idian_cole .col-md-5{
+  width: 40%;
+}
+.idian_cole .col-md-7{
+  width: 55%;
+}
+.carousel-control.right {
+  right: 45%;
+  top: 103%;
+}
+.title_ban h1{
+  font-size: 46px;
+}
+.carousel-control.left {
+  left: 45%;
+  top: 103%;
+}
+.car-rig-1 {
+  top: 104% !important;
+}
+.qu-blw .row{
+  display: flex;
+}
+.in-im img {
+  width: 80%;
+}
+.qu-in h4{
+  font-size: 10px;
+}
+.in-im {
+  display: block;
+  text-align: center;
+}
+}
 @media only screen and (max-width: 767px) and (min-width: 320px){
 .foo_sli .button {
     width: 100% !important;
@@ -1842,3 +2080,39 @@ nav.all-category-nav {
 }
 }	
 
+@media only screen and (max-width: 767px) and (min-width: 520px){
+.container_cls .search {
+    right: 25px;
+    top: 22px;
+    width: 300px;
+}
+.col-md-12.nt-row .col-md-3 {
+    width: 50%;
+    float: left;
+}
+.arr_prt .col-md-6 {
+    width: 50%;
+    float: left;
+}
+.jewel_cnt {
+    bottom: 0px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+section#collectionspro .col-md-2 {
+    margin-bottom: 20px;
+    width: 33.333%;
+    float: left;
+}
+.topmob-sec .thumbnail, .topmob-sec .item .active .thumbnail {
+    height: 410px;
+    margin-bottom: 30px;
+    background-color: transparent !important;
+}
+.testimob-sec .carousel-control.right {
+    left: 63% !important;
+    right: 0;
+    top: 83% !important;
+}
+}
