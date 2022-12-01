@@ -2167,7 +2167,7 @@ section#collectionspro .col-md-2 {
     top: 83% !important;
 }
 }
-@media only screen and (max-width: 1024px) and (min-width: 320px){
+@media only screen and (max-width: 1233px) and (min-width: 320px){
 .overlay, .vid-dsec, .vid-dsec iframe{
 	height:500px;
 }
