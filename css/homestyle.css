@@ -921,17 +921,29 @@ margin-top: 40px;
     bottom: -20px;
 }
 .oq-sec::after {
-    content: '';
-    position: absolute;
-    background-image: url(../images/model.png);
-    right: 0;
-    top: 0;
-    width: 44%;
-    height: 510px;
-    background-size: contain;
-    background-repeat: no-repeat;
+    /* content: ''; */
+    /* position: absolute; */
+    /* background-image: url(../images/model.png); */
+    /* right: 0; */
+    /* top: 0; */
+    /* width: 44%; */
+    /* height: 510px; */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
 }
-
+.oq-sec::after {
+    content: "";
+    position: absolute;
+   background-image: url(../images/model.png) ;
+    background-size: contain;
+    width: 47%;
+    height: 400px;
+    top: 0px;
+    right: 0px;
+    margin: 0 auto;
+	background-repeat: no-repeat;
+}
+	
 .oq-sec .col-md-8{
     margin: 35px 0;
 }
@@ -1497,6 +1509,97 @@ position: relative;
   background-size: 3px 3px;
   z-index: 2;
 }
+/****animation****/
+/* Pulse Shrink */
+@keyframes pulse-shrink {
+  to {
+    transform: scale(0.9);
+  }
+}
+.qu-in {
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.qu-in:hover {
+  animation-name: pulse-shrink;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+
+
+
+/* Push */
+@keyframes push {
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.arr_prt {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.arr_prt:hover {
+  animation-name: push;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+/* Wobble Bottom */
+@keyframes wobble-bottom {
+  16.65% {
+    transform: skew(-12deg);
+  }
+  33.3% {
+    transform: skew(10deg);
+  }
+  49.95% {
+    transform: skew(-6deg);
+  }
+  66.6% {
+    transform: skew(4deg);
+  }
+  83.25% {
+    transform: skew(-2deg);
+  }
+  100% {
+    transform: skew(0);
+  }
+}
+.nt-in {
+  transform-origin: 100% 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+/* .nt-in:hover { */
+  /* animation-name: wobble-bottom; */
+  /* animation-duration: 1s; */
+  /* animation-timing-function: ease-in-out; */
+  /* animation-iteration-count: 1; */
+/* } */
+
+/* Glow */
+.thumbnail {
+  transition-duration: 0.3s;
+  transition-property: box-shadow;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.thumbnail:hover {
+  box-shadow: 0 0 8px rgb(30 30 28 / 35%);
+}
 
 /*******indian jewels*********/
 section.idian_cole {
@@ -1619,7 +1722,18 @@ section#collectionspro .col-md-2 {
     align-items: center;
 }
 /******thiru code******/
-
+.spl-sec::after {
+    content: "";
+    position: absolute;
+    background-image: url(../images/sp-1.png);
+    background-size: contain;
+    width: 50% !important;
+    height: 460px;
+    top: 0px;
+    right: 0px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
 
 /*Trending now mobile section*/
 #myCarousel2 .col-md-6{
@@ -2188,6 +2302,31 @@ height:600px;
 @media only screen and (max-width: 1999px) and (min-width: 1233px){
 .overlay, .vid-dsec, .vid-dsec iframe{
 height:450px;
+}
+.oq-sec::after {
+    content: "";
+    position: absolute;
+    background-image: url(../images/model.png);
+    background-size: contain;
+    width: 35%;
+    height: 400px;
+    top: 0px;
+    right: 0px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+.spl-sec::after{
+	content: "";
+    position: absolute;
+	background-image: url(../images/sp-1.png);
+	   background-size: contain;
+    width: 35%;
+    height: 460px;
+    top: 0px;
+    right: 0px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+	
 }
 }
 
