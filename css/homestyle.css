@@ -1601,6 +1601,27 @@ position: relative;
   box-shadow: 0 0 8px rgb(30 30 28 / 35%);
 }
 
+/* Pop */
+@keyframes pop {
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.nt-in {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.nt-in:hover {
+  animation-name: pop;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
 /*******indian jewels*********/
 section.idian_cole {
     text-align: center;
