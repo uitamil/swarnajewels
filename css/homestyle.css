@@ -19,7 +19,9 @@ ul {
   list-style: none;
   padding: 0;
 }
-
+a.logo {
+    padding-left: 20px;
+}
 header {
   box-shadow: 2px 9px 49px -17px rgba(0, 0, 0, 0.3);
   /* position: sticky; */
@@ -67,7 +69,7 @@ p.offer_get  span{
 .container_cls .open-search {
     border-radius: 3px;
     flex: auto;
-    margin: 0 5% 0 10%;
+    margin: 0 5% 0 7%;
     overflow: hidden;
     position: relative;
 }
@@ -875,7 +877,7 @@ color: #000000;
     /* background: radial-gradient(50% 50% at 50% 50%, rgba(255, 243, 248, 0) 0%, #FFF6DE 100%); */
 	/* background: radial-gradient(50% 50% at 50% 50%, rgba(255, 243, 248, 0) 0%, #FFE5A4 100%); */
 	background: radial-gradient(50% 50% at 50% 50%, rgba(255, 243, 248, 0) 0%, #F4E5BF 100%);
-    height: 500px;
+    height: 400px;
     margin: 30px 0;
     position: relative;
 }
@@ -918,20 +920,23 @@ margin-top: 40px;
     left: 33%;
     bottom: -20px;
 }
-.oq-sec::after{
+.oq-sec::after {
     content: '';
     position: absolute;
     background-image: url(../images/model.png);
     right: 0;
     top: 0;
-    width: 58%;
-    height: 499px;
-    background-size: 100% 100%;
+    width: 44%;
+    height: 510px;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
 .oq-sec .col-md-8{
-    margin: 80px 0;
+    margin: 35px 0;
+}
+.follow_us img:hover{
+filter: invert(70%) sepia(31%) saturate(4007%) hue-rotate(16deg) brightness(113%) contrast(111%);
 }
 /*Our quality section*/
 
@@ -1305,6 +1310,9 @@ footer {
 }
 .follow_us img {
     width: 30px;
+}
+.follow_us img:hover{
+	
 }
 footer h3 {
     font-family: 'Montserrat';
@@ -2172,14 +2180,14 @@ section#collectionspro .col-md-2 {
 	height:550px;
 }
 }
-/* @media only screen and (max-width: 1200px) and (min-width: 1025px){ */
-/* .overlay, .vid-dsec, .vid-dsec iframe{ */
-/* height:600px; */
-/* } */
-/* } */
-/* @media only screen and (max-width: 1999px) and (min-width: 1233px){ */
-/* .overlay, .vid-dsec, .vid-dsec iframe{ */
-/* height:800px; */
-/* } */
-/* } */
+@media only screen and (max-width: 1200px) and (min-width: 1025px){
+.overlay, .vid-dsec, .vid-dsec iframe{
+height:600px;
+}
+}
+@media only screen and (max-width: 1999px) and (min-width: 1233px){
+.overlay, .vid-dsec, .vid-dsec iframe{
+height:450px;
+}
+}
 
