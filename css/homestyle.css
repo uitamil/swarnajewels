@@ -1447,6 +1447,47 @@ section.newleter {
 	background:#F4E5BF;
     padding: 20px 0px;
 }
+/****video play section****/
+
+
+/*Design video section*/
+.vid-dsec{
+position: relative;
+}
+.video-container{
+  width: 100%;
+  height: 100vh;
+}
+
+ iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100vh;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+#text{
+  position: absolute;
+  color: #FFFFFF;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* .overlay { */
+  /* width: 100%; */
+  /* height: 100vh; */
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 0; */
+  /* background-image: linear-gradient(45deg, rgba(0,0,0,.3) 50%, rgba(0,0,0,.7) 50%); */
+  /* background-size: 3px 3px; */
+  /* z-index: 2; */
+/* } */
 
 /*******indian jewels*********/
 section.idian_cole {
@@ -1477,7 +1518,7 @@ section.idian_cole {
 /***design section***/
 section.design_cole{
 	   text-align: center;
-    background: url(../images/design_bg.png);
+    /* background: url(../images/design_bg.png); */
     background-size: 100% 100%;
 	    height: 500px;
 }
