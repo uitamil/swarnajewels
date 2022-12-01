@@ -2167,19 +2167,19 @@ section#collectionspro .col-md-2 {
     top: 83% !important;
 }
 }
-@media only screen and (max-width: 1024px) and (min-width: 320px){
-.overlay, .vid-dsec, .vid-dsec iframe{
-	height:500px;
-}
-}
-@media only screen and (max-width: 1200px) and (min-width: 1025px){
-.overlay, .vid-dsec, .vid-dsec iframe{
-height:600px;
-}
-}
-@media only screen and (max-width: 1999px) and (min-width: 1233px){
-.overlay, .vid-dsec, .vid-dsec iframe{
-height:800px;
-}
-}
+/* @media only screen and (max-width: 1024px) and (min-width: 320px){ */
+/* .overlay, .vid-dsec, .vid-dsec iframe{ */
+	/* height:500px; */
+/* } */
+/* } */
+/* @media only screen and (max-width: 1200px) and (min-width: 1025px){ */
+/* .overlay, .vid-dsec, .vid-dsec iframe{ */
+/* height:600px; */
+/* } */
+/* } */
+/* @media only screen and (max-width: 1999px) and (min-width: 1233px){ */
+/* .overlay, .vid-dsec, .vid-dsec iframe{ */
+/* height:800px; */
+/* } */
+/* } */
 
