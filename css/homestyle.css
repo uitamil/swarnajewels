@@ -25,10 +25,10 @@ section.banner_prt1 img {
 label, a {
   text-decoration: none;
 }
-div#myCarousel .carousel-inner
-{
-	overflow:unset;
-}
+/* div#myCarousel .carousel-inner */
+/* { */
+	/* overflow:unset; */
+/* } */
 ul {
   list-style: none;
   padding: 0;
@@ -1016,6 +1016,7 @@ color: #515151;
     border-radius: 46px;
     padding: 30px 20px;
 	background:transparent;
+	    margin: 10px 5px;
 }
 .carousel-control.left, .carousel-control.right {
 	background-image:none !important;
