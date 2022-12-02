@@ -1954,6 +1954,30 @@ font-size:13px
 }
 
 @media only screen and (min-width:768px) and (max-width:991px){
+	.oq-sec::after {
+    content: "";
+    position: absolute;
+    background-image: url(../images/model.png);
+    background-size: cover;
+    width: 68%;
+    height: 400px;
+    top: 0px;
+    right: 0px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+.spl-sec::after {
+    content: "";
+    position: absolute;
+    background-image: url(../images/sp-1.png);
+    background-size: cover;
+    width: 68% !important;
+    height: 480px;
+    top: 0px;
+    right: 0px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
 .container_cls .search{
 left:105px;
 }
@@ -2034,10 +2058,10 @@ section.design_cole{
   .spl-sec{
     height: auto;
   }
-  .spl-sec::after{
-    height: 480px;
-    width: 55%;
-  }
+  /* .spl-sec::after{ */
+    /* height: 480px; */
+    /* width: 55%; */
+  /* } */
   .carousel-indicators {
     left: 75%;
     width: 10%;
@@ -2321,20 +2345,42 @@ section#collectionspro .col-md-2 {
     top: 83% !important;
 }
 }
-@media only screen and (max-width: 1024px) and (min-width: 320px){
-.overlay, .vid-dsec, .vid-dsec iframe{
-	height:550px;
+/* @media only screen and (max-width: 1024px) and (min-width: 320px){ */
+
+/* } */
+@media only screen and (max-width: 1200px) and (min-width: 1020px){
+/* .overlay, .vid-dsec, .vid-dsec iframe{ */
+/* height:600px; */
+/* } */
+.oq-sec::after {
+    content: "";
+    position: absolute;
+    background-image: url(../images/model.png);
+    background-size: contain;
+    width: 59%;
+    height: 400px;
+    top: 0px;
+    right: 0px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
 }
-}
-@media only screen and (max-width: 1200px) and (min-width: 1025px){
-.overlay, .vid-dsec, .vid-dsec iframe{
-height:600px;
+.spl-sec::after {
+    content: "";
+    position: absolute;
+    background-image: url(../images/sp-1.png);
+    background-size: cover;
+    width: 55% !important;
+    height: 460px;
+    top: 0px;
+    right: 0px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
 }
 }
 @media only screen and (max-width: 1999px) and (min-width: 1500px){
-.overlay, .vid-dsec, .vid-dsec iframe{
-height:450px;
-}
+/* .overlay, .vid-dsec, .vid-dsec iframe{ */
+/* height:450px; */
+/* } */
 .oq-sec::after {
     content: "";
     position: absolute;
