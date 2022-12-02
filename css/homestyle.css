@@ -1129,7 +1129,7 @@ color: #000000;
     background-color: #FFCC47;
     color: #795803;
     border-radius: 9px;
-    padding: 10px;
+        padding: 10px 7px;
 }
 .cap-m1 span:nth-child(2) a{
     color: #795803;
