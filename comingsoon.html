@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <title> Jewels Page</title>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta property="og:title" content="Home Page">
+      <meta name="description"  content="">
+      <meta property="og:image" content="">
+      <meta property="og:url" content=""> 
+      <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+      <!-- Mobile Meta -->
+	    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+			<link rel="shortcut icon" type="image/x-icon" href="images/logo.png">
+		<!--fonts-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- <link href="fonts/metric.min.css" type="text/css" rel="stylesheet"/> -->
+ <link href="fonts/font.css" type="text/css" rel="stylesheet"/>
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"  />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"  />
+    <!-- <link href="fonts/aquiline-font/stylesheet.css" type="text/css" rel="stylesheet" /> -->
+		<!--link-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"  />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" ></script>
+		<link href="css/homestyle.css" rel="stylesheet">
+		<!--script-->
+		
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" ></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" ></script>
+			<style>
+			section.comingsoon_banner {
+    position: relative;
+	height:100vh;
+}
+.whole_cntt {
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    padding-top: 55px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title_bant h1{
+    font-family: pala;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 0px solid #8D8D8D;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    background: radial-gradient(57.14% 57.14% at 50% 42.86%, #B08539 0%, #E0B650 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	}
+	.title_bant img {
+    width: 110px;
+}
+@media only screen and (max-width: 767px) and (min-width: 320px){
+	.title_bant h1 {
+		font-size: 40px;
+	}
+}
+			</style>
+	</head>
+	<body>	
+	<!----tamil section banner---->
+
+ 
+<!---banner part--->
+<section class="comingsoon_banner">
+	<div class="whole_cntt">
+		<div class="title_bant">
+			<img src="images/logo.png">
+			<h1 class="para_tit1">Coming Soon</h1>
+		</div>
+	</div>		
+</section>
+
+
+
+
+	<script>
+<!-- $(".flex-slide").hover( -->
+  <!-- function () { -->
+    <!-- $(this).addClass("active"); -->
+  <!-- }, -->
+  <!-- function () { -->
+    <!-- $(this).removeClass("active"); -->
+  <!-- } -->
+<!-- ); -->
+</script>
+<script>
+
+var hoverOrClick = function () {
+$(".flex-slide").removeClass("active");
+     $(this).toggleClass("active");
+}
+$('.flex-slide').click(hoverOrClick).hover(hoverOrClick);
+
+
+</script>
+<script> 
+$('.Fruitslider').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  dots:true,
+   autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 1,
+        }
+      },
+      {
+        breakpoint: 520,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
+});
+</script>
+<script> 
+$('.banner_prt1').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  dots:true,
+  navigation:false,
+   autoplay: true,
+  autoplaySpeed: 1500,
+  });
+</script>
+<script>
+    $('#myCarousel').carousel({
+		interval:   4000
+	});
+	
+</script>
+<script>
+	$(document).ready(function() {
+			$('.minus').click(function () {
+				var $input = $(this).parent().find('input');
+				var count = parseInt($input.val()) - 1;
+				count = count < 1 ? 1 : count;
+				$input.val(count);
+				$input.change();
+				return false;
+			});
+			$('.plus').click(function () {
+				var $input = $(this).parent().find('input');
+				$input.val(parseInt($input.val()) + 1);
+				$input.change();
+				return false;
+			});
+		});
+</script>
+	</body>
+</html>
